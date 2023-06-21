@@ -1,5 +1,5 @@
-uuid: afc94905-dbb8-4c6c-88e8-0715d635a6f9
-langcode: en
+uuid: 61e01d26-6393-4a3e-b4d0-9a3f6d777d2d
+langcode: es
 status: true
 dependencies:
   config:
@@ -42,8 +42,8 @@ content:
     type: image
     label: hidden
     settings:
-      image_style: wide
       image_link: ''
+      image_style: wide
       image_loading:
         attribute: lazy
     third_party_settings: {  }
@@ -62,4 +62,5 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  langcode: true

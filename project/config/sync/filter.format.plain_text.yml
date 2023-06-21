@@ -1,10 +1,10 @@
-uuid: aad18026-d177-4f2e-ab02-2b0a4ba2158a
-langcode: en
+uuid: 74dc2529-ec17-4129-a46c-7cdcad4fdd7b
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: NIKBt6kw_uPhNI0qtR2DnRf7mSOgAQdx7Q94SKMjXbQ
-name: 'Plain text'
+name: 'Texto sin formato'
 format: plain_text
 weight: 10
 filters:

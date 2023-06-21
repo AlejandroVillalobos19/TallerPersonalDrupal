@@ -1,5 +1,5 @@
-uuid: 09b19b1b-eb07-4954-9a7f-dc875ba19860
-langcode: en
+uuid: 20b79a20-2b59-4431-895c-a280c302bbee
+langcode: es
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: Breadcrumbs
+  label: 'Enlaces de ayuda a la navegación'
   label_display: '0'
   provider: system
 visibility: {  }

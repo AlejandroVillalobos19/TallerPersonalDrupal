@@ -1,5 +1,5 @@
-uuid: 79e9711b-5d84-4de3-b34e-65e89876a2f7
-langcode: en
+uuid: e63a13b7-fddf-408b-9587-a5e550c48eca
+langcode: es
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: Help
+  label: Ayuda
   label_display: '0'
   provider: help
 visibility: {  }

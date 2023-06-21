@@ -1,0 +1,9 @@
+uuid: cbaf1093-aa3d-4168-b2bb-d33d11ac4bd2
+langcode: es
+status: true
+dependencies: {  }
+id: en
+label: English
+direction: ltr
+weight: 1
+locked: false

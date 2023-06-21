@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: en
-uuid: 42b3acd5-759c-4685-b577-9ff3e8515f53
-name: drupalSite
-mail: sr.scoth@gmail.com
+langcode: es
+uuid: 892ef749-1295-4868-a925-3ed8100620ba
+name: 'Taller Personal'
+mail: alevvv2000@gmail.com
 slogan: ''
 page:
   403: ''

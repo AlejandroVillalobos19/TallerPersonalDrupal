@@ -1,5 +1,5 @@
-uuid: 6ea14aab-4e7c-4ed1-9e93-ad2073a6fe89
-langcode: en
+uuid: 7dee8c7d-947e-4988-9de6-8ca3020a6b6f
+langcode: es
 status: true
 dependencies:
   enforced:
@@ -10,4 +10,4 @@ _core:
 id: olivero_medium
 label: 'Olivero Medium'
 locked: false
-pattern: 'j  F,  Y'
+pattern: 'j F, Y'

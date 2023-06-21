@@ -1,5 +1,5 @@
-uuid: 28fea5d2-0595-4823-b372-3c4d3cc86bb2
-langcode: en
+uuid: 232b9316-be84-4187-89cc-0eeec5c72faf
+langcode: es
 status: true
 dependencies:
   config:
@@ -60,6 +60,13 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   path:
     type: path
