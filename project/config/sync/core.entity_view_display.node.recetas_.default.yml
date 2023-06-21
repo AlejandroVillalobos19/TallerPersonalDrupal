@@ -1,0 +1,76 @@
+uuid: ffaebce5-6d3e-4d05-9ce2-7164c52b3203
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recetas_.body
+    - field.field.node.recetas_.field_ingredientes_
+    - field.field.node.recetas_.field_media
+    - field.field.node.recetas_.field_sabrosura_de_receta
+    - field.field.node.recetas_.field_taxonomia_de_recetas
+    - field.field.node.recetas_.field_tiempo_de_receta
+    - node.type.recetas_
+  module:
+    - options
+    - text
+    - user
+id: node.recetas_.default
+targetEntityType: node
+bundle: recetas_
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_ingredientes_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_sabrosura_de_receta:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_taxonomia_de_recetas:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_tiempo_de_receta:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

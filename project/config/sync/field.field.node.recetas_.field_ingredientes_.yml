@@ -1,0 +1,19 @@
+uuid: faa71aa9-b987-4e9a-ad93-d2636ab69295
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredientes_
+    - node.type.recetas_
+id: node.recetas_.field_ingredientes_
+field_name: field_ingredientes_
+entity_type: node
+bundle: recetas_
+label: 'Ingredientes '
+description: 'Agregue un ingrediente por linea.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+uuid: cf89088c-685d-40c6-ab3a-9090f533e5ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.taxonomia_de_recetas_
+id: taxonomy_term.taxonomia_de_recetas_
+target_entity_type_id: taxonomy_term
+target_bundle: taxonomia_de_recetas_
+default_langcode: site_default
+language_alterable: false

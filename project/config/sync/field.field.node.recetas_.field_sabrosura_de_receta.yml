@@ -1,0 +1,21 @@
+uuid: 0722ad63-45d2-499b-9a32-f4eca1ddd3df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sabrosura_de_receta
+    - node.type.recetas_
+  module:
+    - options
+id: node.recetas_.field_sabrosura_de_receta
+field_name: field_sabrosura_de_receta
+entity_type: node
+bundle: recetas_
+label: 'Sabrosura De Receta'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

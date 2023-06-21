@@ -1,0 +1,8 @@
+uuid: fed2c5a6-2771-4b8a-996e-2ad48b278cee
+langcode: en
+status: true
+dependencies: {  }
+name: 'Taxonomia de Recetas'
+vid: taxonomia_de_recetas_
+description: 'Ejemplos: Ensaladas, Pastas, Postres, Sopas, Sushi'
+weight: 0

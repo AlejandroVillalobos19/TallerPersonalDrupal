@@ -1,0 +1,33 @@
+uuid: 5fa04eb4-06e3-463e-9f00-31f2d1b6a23f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_sabrosura_de_receta
+field_name: field_sabrosura_de_receta
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: fea
+      label: Fea
+    -
+      value: promedio
+      label: Promedio
+    -
+      value: rica
+      label: Riquisima
+    -
+      value: deliciosa
+      label: ExplotadaBomboClat
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

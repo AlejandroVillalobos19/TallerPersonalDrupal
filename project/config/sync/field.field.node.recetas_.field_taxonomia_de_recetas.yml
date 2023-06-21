@@ -1,0 +1,29 @@
+uuid: 48bd230f-cafe-4c65-a174-e1be87b0d1e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxonomia_de_recetas
+    - node.type.recetas_
+    - taxonomy.vocabulary.taxonomia_de_recetas_
+id: node.recetas_.field_taxonomia_de_recetas
+field_name: field_taxonomia_de_recetas
+entity_type: node
+bundle: recetas_
+label: 'Taxonomias de Recetas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      taxonomia_de_recetas_: taxonomia_de_recetas_
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

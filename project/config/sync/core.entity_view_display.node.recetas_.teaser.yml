@@ -1,0 +1,41 @@
+uuid: 346c680e-e360-46c7-adb7-f7e0f18f9ab0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recetas_.body
+    - field.field.node.recetas_.field_ingredientes_
+    - field.field.node.recetas_.field_media
+    - field.field.node.recetas_.field_sabrosura_de_receta
+    - field.field.node.recetas_.field_taxonomia_de_recetas
+    - field.field.node.recetas_.field_tiempo_de_receta
+    - node.type.recetas_
+  module:
+    - text
+    - user
+id: node.recetas_.teaser
+targetEntityType: node
+bundle: recetas_
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ingredientes_: true
+  field_media: true
+  field_sabrosura_de_receta: true
+  field_taxonomia_de_recetas: true
+  field_tiempo_de_receta: true
+  langcode: true

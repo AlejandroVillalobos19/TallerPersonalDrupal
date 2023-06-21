@@ -1,21 +1,19 @@
-uuid: 5d14233b-0349-4bdb-ad2c-55b998d756dd
-langcode: es
+uuid: 04d6e4f4-2f6e-4015-b608-189d8ad0ca37
+langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-_core:
-  default_config_hash: WpOE_bs8Bs_HY2ns7n2r__de-xno0-Bxkqep5-MsHAs
-id: node.field_tags
-field_name: field_tags
+id: node.field_taxonomia_de_recetas
+field_name: field_taxonomia_de_recetas
 entity_type: node
 type: entity_reference
 settings:
   target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

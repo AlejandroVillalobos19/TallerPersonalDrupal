@@ -1,0 +1,23 @@
+uuid: 575a44fe-ff37-49d3-9f12-bc3dcd7c3bdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tiempo_de_receta
+    - node.type.recetas_
+id: node.recetas_.field_tiempo_de_receta
+field_name: field_tiempo_de_receta
+entity_type: node
+bundle: recetas_
+label: 'Tiempo de Receta'
+description: 'Ingrese el tiempo en Minutos'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: Minutos
+field_type: integer

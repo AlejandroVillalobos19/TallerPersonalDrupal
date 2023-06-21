@@ -1,0 +1,23 @@
+uuid: 243a83ce-382c-47fb-a9b7-e0b6fac70510
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recetas_
+  module:
+    - text
+id: node.recetas_.body
+field_name: body
+entity_type: node
+bundle: recetas_
+label: 'Descripcion de la Receta '
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
